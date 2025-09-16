@@ -1,6 +1,6 @@
-package Level1;
+package Level2;
 
-import Level1.Model.Application;
+import Level2.Model.Application;
 
 public class Main {
     public static void main(String[] args){
