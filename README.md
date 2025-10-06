@@ -1,3 +1,5 @@
+Creat per David Rey, corretgit per adolcc.
+
 # 🧑‍💻 Tasca S1.02. Exceptions
 
 
