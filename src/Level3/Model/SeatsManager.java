@@ -34,7 +34,7 @@ public class SeatsManager {
 
     public int searchSeat(Seat seat){
         for(int i = 0; i < seats.size(); i++){
-            if(seat.getRowNum() == seats.get(i).getRowNum() && seat.getSeatNum() == seats.get(i).getSeatNum()){
+            if(seat.equals(seats.get(i))){
                 return i;
             }
         }
