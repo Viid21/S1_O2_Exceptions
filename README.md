@@ -1,6 +1,6 @@
 # 🧑‍💻 Task S1.02. Exceptions  
 **Author:** David Rey  
-**Corrected by:** adolcc  
+**Corrected by:** Adolfo Caicaguare ([adolcc](https://github.com/Viid21/S1_02_Exceptions/issues/1))  
 
 ### 📄 Description  
 This project contains three exercises distributed across difficulty levels, focused on exception handling, input validation via keyboard, and seat reservation management in a cinema.
