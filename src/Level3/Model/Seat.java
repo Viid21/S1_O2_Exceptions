@@ -1,5 +1,7 @@
 package Level3.Model;
 
+import java.util.Objects;
+
 public class Seat {
     int rowNum;
     int seatNum;
@@ -23,10 +25,19 @@ public class Seat {
         return seatNum;
     }
 
-    public boolean equals(Seat otherSeat){
-        return otherSeat.getRowNum() == getRowNum() && otherSeat.getSeatNum() == getSeatNum();
+    @Override
+    public boolean equals(Object o) {
+        if (o == null || getClass() != o.getClass()) return false;
+        Seat seat = (Seat) o;
+        return rowNum == seat.rowNum && seatNum == seat.seatNum;
     }
 
+    @Override
+    public int hashCode() {
+        return Objects.hash(rowNum, seatNum);
+    }
+
+    @Override
     public String toString(){
         return String.format("Row: %d, Seat: %d, Client: %s", getRowNum(), getSeatNum(), getClient());
     }
